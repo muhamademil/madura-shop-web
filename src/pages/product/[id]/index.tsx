@@ -3,7 +3,6 @@ import Layout from "@/components/layout/layout.module";
 
 import { useRouter } from "next/router";
 import { data } from "@/pages/dummy/data";
-import { log } from "console";
 
 export default function Detail() {
   const router = useRouter();
