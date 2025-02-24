@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Layout from "@/components/layout/layout.module";
 import Card from "@/components/card/card";
 
-import { data, DataProduct } from "../dummy/data";
+import { data, DataProduct } from "../../dummy/data";
 
 export default function Product() {
   const [search, setSearch] = useState<string>("");

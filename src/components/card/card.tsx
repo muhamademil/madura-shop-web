@@ -1,5 +1,5 @@
 import React from "react";
-import { DataProduct } from "@/pages/dummy/data";
+import { DataProduct } from "@/dummy/data";
 
 export default function Card({
   id,

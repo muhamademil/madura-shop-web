@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@/components/layout/layout.module";
 
 import { useRouter } from "next/router";
-import { data } from "@/pages/dummy/data";
+import { data } from "@/dummy/data";
 
 export default function Detail() {
   const router = useRouter();
