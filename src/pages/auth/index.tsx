@@ -10,7 +10,7 @@ export default function Login() {
 
   const router = useRouter();
 
-  function handleLogin(e: any) {
+  function handleLogin(e: React.FormEvent) {
     e.preventDefault();
 
     const data = {
